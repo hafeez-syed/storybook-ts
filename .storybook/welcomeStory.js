@@ -1,6 +1,8 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
+import { wInfo } from "../src/utils";
 
-storiesOf("Welcome", module).add("to my new storybook 🎉", () => (
-  <div>Welcome to my new Storybook 🎉 </div>
-));
+storiesOf("Welcome", module).addWithJSX(
+  "to my new storybook 🎉",
+  wInfo(`Splash page`)(() => <div>Welcome to my new Storybook 🎉 </div>)
+);
