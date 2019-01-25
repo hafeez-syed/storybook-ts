@@ -1,0 +1,28 @@
+{
+  "name": "storybook-ts",
+  "version": "0.0.1",
+  "description": "Storybook Typescript",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafeez-syed/storybook-ts.git"
+  },
+  "keywords": [],
+  "author": "Hafeez Syed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafeez-syed/storybook-ts/issues"
+  },
+  "homepage": "https://github.com/hafeez-syed/storybook-ts#readme",
+  "devDependencies": {
+    "@storybook/react": "^4.1.11",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
